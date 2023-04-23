@@ -1,0 +1,194 @@
+body {
+  background-color: black;
+    background-image: linear-gradient(darkorange,red);
+/*    background-image: url("../img/Pinterest-2.jpg");*/
+    background-repeat: no-repeat;
+/*    background-position: top right;*/
+    background-size:fill;
+    background-attachment: fixed;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+    margin-left:10%;
+    margin-right: 10%;
+}
+cover {
+    align-content: center;
+}
+table {
+    color: white;
+}
+
+
+
+/*
+.container-fluid {
+    width: 100%;
+    height: auto;
+    border: 0px;
+    object-fit: cover;
+}
+*/
+
+img {
+  max-width: 100%;
+    object-fit: contain;
+    align-content: center;
+}
+
+/*
+.home image{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+*/
+
+img.logo {
+
+  width: 100%;
+  height: auto;
+    align-content: center;
+}
+
+header {
+  /* background-color: darkblue; */
+  text-align: center;
+    align-content: center;
+    padding-right: 20px;
+}
+
+.cast > ul > li {
+  color: red;
+  list-style-type: none;
+
+}
+
+h1 {
+  color: white;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 300%;
+}
+
+nav > ul > li {
+  display: inline-block;
+ align-content: center;
+    text-align: center;
+    font-size: 2em;
+}
+
+nav > ul > li > a {
+  font-size: 1em;
+text-align: center;
+    padding-left: 20px;
+        padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+nav > ul > li > h1 {
+    font-size: 2em;
+text-align: center;
+    padding-left: 20px;
+        padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+} 
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: lightgray;
+}
+
+a:hover {
+  color: black;
+  background-color: red;
+  transition: 2s;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+}
+
+footer {
+  text-align: left;
+  margin:auto;
+  padding: 20px;
+  background-color: red;
+}
+
+.Facts1 {
+    text-align: left;
+    align-items: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+p {
+  font-weight: regular;
+  color: white;
+}
+
+.about {
+  /* position: absolute;
+  z-index: -100;
+  left: 50px; */
+  float: left;
+  width: 500px;
+  height: 500px;
+  border: 2px red solid;
+  padding: 50px;
+  margin: 25px;
+  box-shadow: 5px 10px black;
+  background-color: rgba(255,0,0,0.5);
+  box-sizing: border-box;
+  /* visibility: hidden; */
+  display: none;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: ExtraBold 800;
+}
+
+.song {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.falcon {
+  width: 200px;
+    animation-name: flight;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+}
+
+@keyframes flight  {
+    0%, 100% {
+        transform: translate(0,0)
+    }
+    50% {
+        transform: translate(400px,0)
+    }
+}
